@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CalendarComponent } from './calendar/calendar/calendar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports:[CalendarComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-app';
+  name = 'Pedro';
+  user = undefined;
+  data=[1,2,3,4,5,6]
 }
