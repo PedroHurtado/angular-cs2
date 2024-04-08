@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-day',
@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './day.component.css'
 })
 export class DayComponent {
-  @Input() day:number=0
+  day=input.required<number>();
 }

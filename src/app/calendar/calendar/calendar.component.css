@@ -1,4 +1,4 @@
-.calendar {
+:host {
   display: grid;
   grid-template-columns: repeat(7,1.5rem);
 }

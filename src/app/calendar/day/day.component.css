@@ -1,10 +1,10 @@
-.day{
+:host{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 1.5rem;
   height: 1.5rem;
 }
-.day:hover{
+:host(:hover) {
   outline: 1px solid blue;
 }
