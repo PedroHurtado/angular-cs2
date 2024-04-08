@@ -5,6 +5,7 @@ import { FormComponent } from './controls/form/form.component';
 import { CounterComponent } from './counter/counter.component';
 import { TimerComponent } from './timer/timer.component';
 import { TrasclusionComponent } from './trasclusion/trasclusion.component';
+import { LayooutComponent } from './pages/layoout/layoout.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { TrasclusionComponent } from './trasclusion/trasclusion.component';
     FormComponent,
     CounterComponent,
     TimerComponent,
-    TrasclusionComponent
+    TrasclusionComponent,
+    LayooutComponent
   ],
   templateUrl: './app.component.html',
 })
