@@ -1,0 +1,16 @@
+@if(active()){
+  <div>Loading....</div>
+}
+@else{
+  <ul>
+    @for (post of posts(); track post.id) {
+      <li>
+        <div>{{post.id}}</div>
+        <div>{{post.title}}</div>
+        <div>{{post.views}}</div>
+      </li>
+    }
+    </ul>
+}
+
+
